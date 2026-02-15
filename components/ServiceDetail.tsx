@@ -211,13 +211,13 @@ const ServiceDetail: React.FC<ServiceDetailProps> = ({ service, onClose }) => {
               </h2>
 
               <div className="flex flex-col md:flex-row items-center justify-center gap-6">
-                <MagneticButton onClick={() => navigate('/meeting')}>
+                <MagneticButton onClick={() => { onClose(); navigate('/meeting'); }}>
                   <div className="px-12 py-6 bg-white text-black font-black rounded-full uppercase tracking-widest text-[10px] flex items-center gap-4 hover:scale-105 transition-all shadow-2xl shadow-white/5">
                     Schedule a Meeting
                     <ArrowRight size={18} />
                   </div>
                 </MagneticButton>
-                <MagneticButton onClick={() => navigate('/start')}>
+                <MagneticButton onClick={() => { onClose(); navigate('/start'); }}>
                   <div className="px-12 py-6 border border-white/5 bg-zinc-900 text-white font-black rounded-full uppercase tracking-widest text-[10px] flex items-center gap-4 hover:bg-white hover:text-black transition-all">
                     Start Project Initiation
                   </div>
