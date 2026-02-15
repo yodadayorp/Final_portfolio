@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Twitter, Linkedin } from 'lucide-react';
+import { Instagram, Twitter, Linkedin, Mail } from 'lucide-react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { NAV_ITEMS } from '../constants';
 import Logo from './Logo';
@@ -47,9 +47,8 @@ const Footer: React.FC = () => {
               A premium agency for high-performance development and elite identities. We build for the future.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 bg-zinc-900 border border-zinc-800 rounded-full flex items-center justify-center text-zinc-400 hover:text-white hover:border-white transition-all"><Instagram size={18} /></a>
-              <a href="#" className="w-10 h-10 bg-zinc-900 border border-zinc-800 rounded-full flex items-center justify-center text-zinc-400 hover:text-white hover:border-white transition-all"><Twitter size={18} /></a>
-              <a href="#" className="w-10 h-10 bg-zinc-900 border border-zinc-800 rounded-full flex items-center justify-center text-zinc-400 hover:text-white hover:border-white transition-all"><Linkedin size={18} /></a>
+              <a href="https://www.instagram.com/yodadayo34?igsh=MTZxZTByM3R5dXN0cA==" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-zinc-900 border border-zinc-800 rounded-full flex items-center justify-center text-zinc-400 hover:text-white hover:border-white transition-all"><Instagram size={18} /></a>
+              <a href="mailto:yodadayorp@gmail.com" className="w-10 h-10 bg-zinc-900 border border-zinc-800 rounded-full flex items-center justify-center text-zinc-400 hover:text-white hover:border-white transition-all"><Mail size={18} /></a>
             </div>
           </div>
 

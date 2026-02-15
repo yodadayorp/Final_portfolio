@@ -481,9 +481,9 @@ export const TEAM: TeamMember[] = [
     image: '/ram_kantharia.jpg',
     bio: 'Leading the vision. Specializing in brand architecture and cinematic digital experiences.',
     socials: {
-      instagram: 'https://instagram.com/',
-      linkedin: 'https://linkedin.com/',
-      portfolio: 'https://ram.design'
+      instagram: 'https://www.instagram.com/ramisalwayskidding?igsh=ejZheDhzOHlrYXVt',
+      linkedin: 'https://www.linkedin.com/in/ram-kantharia-940209389?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      portfolio: 'https://ramkantharia.vercel.app'
     }
   },
   {
@@ -493,9 +493,9 @@ export const TEAM: TeamMember[] = [
     image: '/prapti_sharma.jpg',
     bio: 'The engine of execution. Bridging the gap between client goals and technical impact.',
     socials: {
-      instagram: 'https://instagram.com/',
-      linkedin: 'https://www.linkedin.com/in/prapti-sharma-7121532a6',
-      portfolio: 'https://prapti.vision'
+      instagram: 'https://www.instagram.com/prapti_sharma_38?igsh=eG1hcXd0enVmeGh2',
+      linkedin: 'https://www.linkedin.com/in/prapti-sharma-7121532a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+      portfolio: 'https://praptiisharma.vercel.app'
     }
   }
 ];
